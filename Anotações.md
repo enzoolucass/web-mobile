@@ -1,19 +1,27 @@
 # Anotações de Web Mobile
-## Para atualizar os dados:
-git add .
-git commit -m "Atualizando arquivos do projeto"
-git push origin main
 
-## Ao final de toda aula:
-rm -rf C:\Users\Aluno\Documents\web-mobile
-git config --global --unset user.name
-git config --global --unset user.email
+---
 
-No Chrome/Edge: Ctrl+Shift+Delete e selecione "Tudo" para apagar.
+## Instruções para Gerenciamento do Projeto
+
+### Atualizar os Dados no Repositório
+1. git add .
+2. git commit -m "Atualizando arquivos do projeto"
+3. git push origin main
+
+### Procedimentos ao Final de Cada Aula
+1. rm -rf C:\Users\Aluno\Documents\web-mobile
+
+2. git config --global --unset user.name
+   git config --global --unset user.email
+
+3. - Pressione Ctrl+Shift+Delete.
+   - Selecione a opção "Tudo" para limpar histórico, cookies e cache.
 
 ---
 
 ## Aula 1 - 12/03/2025
+
 
 ### Aplicação Web
 - **Definição:** Sistemas que rodam no navegador, desenvolvidos com **HTML**, **JavaScript** e **CSS**. Eles podem ser executados localmente ou a partir de um servidor web (HTTP), conhecido como *Web Host*.  
@@ -33,7 +41,18 @@ No Chrome/Edge: Ctrl+Shift+Delete e selecione "Tudo" para apagar.
 - **Definição:** Não é uma linguagem de programação, mas sim um conjunto de regras para definir a aparência visual de documentos HTML ou XML.  
 - **Função:** Estilizar e layoutar elementos, conferindo identidade visual ao projeto.
 
-Para o gpt: com base nas anotações anteriores, faça um topico tbm sobre git e versionamento.
+### Sobre Git e Versionamento
+- Git: Sistema de controle de versão distribuído que rastreia mudanças no código e permite colaboração entre desenvolvedores.
+
+- Versionamento: Prática de manter um histórico organizado das alterações, possibilitando reverter mudanças indesejadas.
+
+**Principais Comandos:**
+- git init: Inicializa um repositório.
+- git add: Adiciona arquivos para o stage.
+- git commit: Registra mudanças com uma mensagem.
+- git push: Envia alterações para o repositório remoto.
+- git pull: Atualiza o código local com mudanças remotas.
+- Vantagens: Organização, rastreabilidade, colaboração e segurança no desenvolvimento de projetos.
 
 ---
 
