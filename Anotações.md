@@ -1,4 +1,15 @@
 # Anotações de Web Mobile
+## Para atualizar os dados:
+git add .
+git commit -m "Atualizando arquivos do projeto"
+git push origin main
+
+## Ao final de toda aula:
+rm -rf C:\Users\Aluno\Documents\web-mobile
+git config --global --unset user.name
+git config --global --unset user.email
+
+No Chrome/Edge: Ctrl+Shift+Delete e selecione "Tudo" para apagar.
 
 ---
 
@@ -22,10 +33,11 @@
 - **Definição:** Não é uma linguagem de programação, mas sim um conjunto de regras para definir a aparência visual de documentos HTML ou XML.  
 - **Função:** Estilizar e layoutar elementos, conferindo identidade visual ao projeto.
 
+Para o gpt: com base nas anotações anteriores, faça um topico tbm sobre git e versionamento.
+
 ---
 
 ## Aula 2 - 19/03/2025
 
-### (Espaço reservado para slides ou outros tópicos. Complete este trecho com os temas abordados na aula.)
 
 ---
