@@ -3,11 +3,18 @@
 ---
 
 ## Instruções para Gerenciamento do Projeto
+1. Abrir Ubuntu WSL
+2. git pull origin main
+   git fetch
+   git merge
 
 ### Atualizar os Dados no Repositório
 1. git add .
 2. git commit -m "Atualizando arquivos do projeto"
 3. git push origin main
+
+### Pasta para acessar no windows
+- \\wsl$\Ubuntu\home\enzolucas\web-mobile
 
 ### Procedimentos ao Final de Cada Aula
 1. rm -rf C:\Users\Aluno\Documents\web-mobile
