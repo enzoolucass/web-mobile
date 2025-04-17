@@ -18,7 +18,13 @@
 Se não tiver instala
 2. virtualenv -p python3 virtual
 3. Para iniciar: source ./virtual/bin/activate
+sudo service postgresql start
 4. python manage.py runserver
+
+## Para criar o usuario do banco
+1. python manage.py migrate
+2. python manage.py create superuser
+
 
 4. Para desativar: desactivate
 
